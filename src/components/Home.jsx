@@ -5,7 +5,7 @@ import { TerminatedContext } from "../context/TerminatedContext";
 import { PromotedContext } from "../context/PromotedContext";
 import { EmployeeContext } from "../context/EmployeeContext";
 
-export const Home = ({ getdata }) => {
+export const Home = () => {
   const [employeeList, setEmployeeList] = useState([]);
   const { terminated } = useContext(TerminatedContext);
   const { promoted } = useContext(PromotedContext);
